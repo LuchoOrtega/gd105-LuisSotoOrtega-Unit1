@@ -1,6 +1,6 @@
 /*
 Luis Soto Ortega
-The Layered Drawing Piece version 2
+The Layered Drawing Piece
 GD 105
 */
 
