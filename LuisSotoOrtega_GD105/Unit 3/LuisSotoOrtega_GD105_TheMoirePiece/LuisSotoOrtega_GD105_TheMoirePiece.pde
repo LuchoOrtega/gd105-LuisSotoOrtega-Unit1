@@ -99,5 +99,10 @@ void draw() {
   line(0, 800, 800, 760);
   line(0, 800, 800, 780);
   line(0, 800, 800, 800);
+  
+  // save the image at frame 30
+  if (frameCount == 30) {
+    save("output.png");
+  }
 
 }

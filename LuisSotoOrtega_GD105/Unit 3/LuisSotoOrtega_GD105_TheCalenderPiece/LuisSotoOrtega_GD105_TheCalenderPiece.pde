@@ -108,6 +108,11 @@ void draw(){
   textAlign(CENTER, CENTER);
   text("Today is " + m + "/" + d + "/" + y, width/2, 730);
   text("It is " + weekDay(dayNum()) + " my dudes", width/2, 770);
+  
+  // save the image
+  if (frameCount == 1) {
+    save("output.png");
+  }
 
 } 
 

@@ -99,4 +99,9 @@ void draw() {
   text("10", width/2 - 25 - 280, 90 + 150);
   text("11", width/2 - 25 - 160, 90 + 40);
   
+  // save the image
+  if (frameCount == 1) {
+    save("output.png");
+  }
+  
 }
