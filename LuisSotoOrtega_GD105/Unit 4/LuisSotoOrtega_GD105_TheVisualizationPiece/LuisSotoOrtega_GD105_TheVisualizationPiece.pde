@@ -6,11 +6,11 @@
  GD 105
  */
  
- PImage[] img; // Array to hold the images
+PImage[] img; // Array to hold the images
 String[] urls; // Array to hold the URLs
 int numImg = 5; // Number of images
  
- PImage luchosworldBG;
+PImage luchosworldBG;
  
  // class & variable instance of timer
 heartTimer timer;
